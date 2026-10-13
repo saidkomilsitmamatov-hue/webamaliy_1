@@ -1,0 +1,75 @@
+body{
+    font-family: 'Roboto', Arial, sans-serif;
+    color:whitesmoke;
+    line-height: 2;
+    margin: 0;
+    padding: 20px;
+    background-image: url('https://uzbekistan.travel/storage/app/media/wepb/Xorazm%20taomlari/cropped-images/256f3c9f-1b7a-41a7-bbb8-0ed7d9aa9745-0-0-0-0-1744797161.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+h2, h3 {
+    color: var(--asosiy-rang);
+    border-bottom: 2px solid var(--ikkilamchi-rang);
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+nav ul{
+    list-style-type: none;
+    background-color: var(--asosiy-rang);
+    padding: 12px;
+    text-align: center;
+    border-radius: 6px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+}
+.btn {
+    display: inline-block;
+    background-color: var(--ikkilamchi-rang);
+    color: var(--oq-rang);
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #b45309;
+    text-decoration: none;
+}
+main a{
+    color: var(--asosiy-rang);
+    text-decoration: underline;
+    color: #4338ca;
+}
+main a:hover {
+    color: var(--ikkilamchi-rang);
+    text-decoration: none;
+}
+blockquote {
+    font-style: italic;
+    color: #64748b;
+    border-left: 3px solid var(--asosiy-rang);
+    margin: 20px 0;
+    padding-left: 15px;
+}
